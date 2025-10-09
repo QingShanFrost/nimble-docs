@@ -67,26 +67,3 @@ git clone https://github.com/QingShanFrost/nimble-db.git
 本项目采用 Apache License 2.0 开源。这意味着你可以在遵循该许可证的条件下自由地使用、修改和分发本软件。更多详情，请参阅 LICENSE 文件。
 
 🌟 Nimble —— 因为分享，应该轻而易举。
-
-text
-编辑
-
----
-
-## ✅ 下一步操作清单
-
-1. **创建 LICENSE 文件**
-   - 在每个仓库根目录下创建 `LICENSE` 文件
-   - 内容为 Apache License 2.0 的全文
-   - 获取地址：https://www.apache.org/licenses/LICENSE-2.0.txt
-   - 或使用 GitHub 创建仓库时自带的模板
-
-2. **创建 `nimble-docs/assets/` 目录**
-   ```bash
-   mkdir -p nimble-docs/assets
-未来可存放架构图、Logo 等资源
-将上述 README.md 内容粘贴到 nimble-docs 仓库
-在其他四个仓库的 README.md 中添加链接回 nimble-docs
-🎁 小贴士
-你可以使用 Excalidraw 绘制手绘风格的架构图，导出为 architecture.png 放入 assets/
-建议在 nimble-backend 和 nimble-frontend 的 README.md 中也引用 Apache 2.0 许可证
