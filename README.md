@@ -34,7 +34,7 @@ Nimble 采用模块化设计，各组件独立开发、独立部署，便于维�
 
 ## 🛠️ 如何参与开发？
 
-### 1. 克隆所有仓库（可选）
+### 1. 克隆所有仓库
 
 ```bash
 mkdir nimble && cd nimble
@@ -42,8 +42,9 @@ git clone https://github.com/QingShanFrost/nimble-frontend.git
 git clone https://github.com/QingShanFrost/nimble-backend.git
 git clone https://github.com/QingShanFrost/nimble-client.git
 git clone https://github.com/QingShanFrost/nimble-db.git
+```
 
-2. 本地开发建议
+### 2. 本地开发建议
 后端：启动 nimble-backend，确保数据库连接正常
 前端：在 nimble-frontend 中配置 API_URL=http://localhost:5000
 客户端：使用 Tauri 开发模式运行 nimble-client
