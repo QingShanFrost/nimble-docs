@@ -11,7 +11,7 @@ Nimble 采用模块化设计，各组件独立开发、独立部署，便于维�
 | 仓库 | 功能 | 技术栈 |
 |------|------|--------|
 | [`nimble-frontend`](https://github.com/QingShanFrost/nimble-frontend) | 网页端界面 | Nuxt.js |
-| [`nimble-backend`](https://github.com/QingShanFrost/nimble-backend) | 核心 API 服务 | Django + PostgreSQL + Redis |
+| [`nimble-backend`](https://github.com/QingShanFrost/nimble-backend) | 核心 API 服务 | Spring boot + PostgreSQL |
 | [`nimble-client`](https://github.com/QingShanFrost/nimble-client) | 桌面客户端（Tauri） | Rust + Vue |
 | [`nimble-db`](https://github.com/QingShanFrost/nimble-db) | 数据库 Schema 与迁移 | SQL |
 | [`nimble-docs`](https://github.com/QingShanFrost/nimble-docs) | 本仓库：文档中心 | Markdown |
